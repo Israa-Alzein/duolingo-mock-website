@@ -80,7 +80,7 @@ header{
 }
 
 .green-button:hover{
-    background-color: #88E788;
+    background-color: #58cc02;
 }
 
 .white-button{
@@ -135,7 +135,7 @@ header{
 }
 
 .advantage-info > h1{
-    color:#83e683;
+    color:#58cc02;
     font-size:50px
 }
 
@@ -181,4 +181,41 @@ header{
 
 .download-links  button:hover{
     background-color:rgb(174, 183, 193)
+}
+
+footer img{
+    width:100%;
+}
+
+.footer-container{
+    gap:30px;
+    align-items: start;
+    background-color:#58cc02;
+    color:white;
+    padding: 20px;
+    border-bottom: white solid 1px;
+}
+
+.genre{
+    justify-content: start;
+    align-items: start;
+    gap:20px
+}
+
+
+
+.footer-languages-container{
+    padding: 20px;
+    background-color: #58cc02;
+    color:white
+}
+
+
+.footer-languages{
+    gap:20px;
+    color:white
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
