@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:95%;
+}
+
+.header-logo-nav-container{
+    top: 0;
+    left: 0;
+    right: 0;
+    width:1300px;
+    height:80px;
+    padding: 20px 110px;
+    position:fixed;
+    border-bottom: grey solid 2px;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.header-logo{
+    width: 200px;
+}
+
+.header-nav-span{
+    font-weight: bold;
+    color:gray
+}
+
+.header-intro{
+    margin-top: 150px; 
+    margin-right:138.333px;
+    margin-left:138.333px;
+}
+
+.header-image{
+    height:400px;
+    width:400px
+}
+
+.header-get-started{
+    height:300px;
+}
+
+.header-title{
+    margin-bottom: 70px;
+    font-family:cursive sans-serif
+}
+
+.header-buttons{
+    height:120px;
+    width:400px;
+    gap:10px
+}
+
+.column{
+    flex-direction: column;
+}
+
+.header-button{
+    width: 300px;
+    height:50px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 1px;
+    border: 0;
+}
+
+.green-button{
+    background-color: green;
+    color:white;
+    font-weight: bold;
+}
+
+.green-button:hover{
+    background-color: #88E788;
+}
+
+.white-button{
+    background-color:white;
+    color:rgb(56, 157, 220);
+    font-weight: bold;
+}
+
+.white-button:hover{
+    background-color: gainsboro;
+}
