@@ -3,9 +3,6 @@
     box-sizing: border-box;
 }
 
-body{
-    width:95%;
-}
 
 header{
     margin-bottom:80px
@@ -97,7 +94,7 @@ header{
 }
 
 .languages{
-    height:100px;
+    height:80px;
     padding-right:100px;
     padding-left:100px;
     gap:5px;
@@ -119,4 +116,69 @@ header{
 .language > h4{
     width:100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.advantages-container{
+    justify-content:space-evenly !important;
+    gap:100px
+}
+
+.advantage{
+    justify-content: space-around;
+}
+
+.advantage-info{
+    width: 500px;
+    gap:40px;
+    align-items:start
+}
+
+.advantage-info > h1{
+    color:#83e683;
+    font-size:50px
+}
+
+.advantage-img{
+    width:500px
+}
+
+.download-container{
+    background-color: rgb(144, 210, 250);
+    justify-content: center;
+    height:395px;
+    width:100%
+}
+
+.download-container h1{
+    font-size: 60px;
+    width:500px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkblue
+}
+
+.download{
+    gap:40px
+}
+
+.download-links{
+    gap:20px
+} 
+.download-links  button{
+    width:140px;
+    height:60px;
+    border-radius: 10px;
+    border-color: hsl(39, 100%, 50%);
+    font-weight: bold;
+    color:rgb(86, 84, 84);
+    border-width: 0.4px;
+}
+
+.download-links img{
+    width:20px
+}
+
+.download-links  button:hover{
+    background-color:rgb(174, 183, 193)
 }
