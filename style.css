@@ -102,10 +102,18 @@ header{
     border-bottom: solid gray 1px;
 }
 
+.overflow{
+    overflow-x: scroll;
+}
+
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+
 .language{
-    width:200px;
+    width:180px;
     justify-content:center;
-    gap:10px
+    gap:7px
 }
 
 .languages img{
