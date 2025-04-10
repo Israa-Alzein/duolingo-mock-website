@@ -7,6 +7,10 @@ body{
     width:95%;
 }
 
+header{
+    margin-bottom:80px
+}
+
 .header-logo-nav-container{
     top: 0;
     left: 0;
@@ -90,4 +94,29 @@ body{
 
 .white-button:hover{
     background-color: gainsboro;
+}
+
+.languages{
+    height:100px;
+    padding-right:100px;
+    padding-left:100px;
+    gap:5px;
+    border-top: solid gray 1px;
+    border-bottom: solid gray 1px;
+}
+
+.language{
+    width:200px;
+    justify-content:center;
+    gap:10px
+}
+
+.languages img{
+    width:30px;
+    height: 20px
+}
+
+.language > h4{
+    width:100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
