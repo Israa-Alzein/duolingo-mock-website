@@ -16,7 +16,8 @@ header{
     height:80px;
     padding: 20px 110px;
     position:fixed;
-    border-bottom: grey solid 2px;
+    border-bottom: rgb(143, 142, 142) solid 2px;
+    
 }
 
 .flex{
@@ -43,11 +44,12 @@ header{
 
 .header-image{
     height:400px;
-    width:400px
+    width:350px
 }
 
 .header-get-started{
     height:300px;
+    max-width:600px
 }
 
 .header-title{
@@ -215,7 +217,9 @@ footer img{
 .footer-languages-container{
     padding: 20px;
     background-color: #58cc02;
-    color:white
+    color:white;
+    gap:20px;
+    align-items:start
 }
 
 
